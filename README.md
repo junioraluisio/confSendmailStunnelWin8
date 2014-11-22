@@ -40,7 +40,9 @@ Agora vem a dica para funcionar no Windows 8.
     C:\Arquivos de Programas\stunnel (64bits) ou
     C:\Program Files (x86)\stunnel (32bits);
 
-    DICA: Para editar este arquivo você precisará de permissões especiais, portanto será necessário copiá-lo para a Área de Trabalho para só então editá-lo e depois de editado sobrescrevê-lo na pasta de origem.
+    DICA: Para editar este arquivo você precisará de permissões especiais,
+    portanto será necessário copiá-lo para a Área de Trabalho para só então
+    editá-lo e depois de editadosobrescrevê-lo na pasta de origem.
 
 Após copiar o arquivo abra-o e edite as seguintes configurações:
 
@@ -60,7 +62,8 @@ Após copiar o arquivo abra-o e edite as seguintes configurações:
     debug = 7
     output = stunnel.log
 
-    DICA: Caso habilite a opção de debug será necessário criar o arquivo stunnel.log se ele não existir e dar as devidas permissões do seu usuário.
+    DICA: Caso habilite a opção de debug será necessário criar o arquivo stunnel.log
+    se ele não existir e dar as devidas permissões do seu usuário.
 
 Salve, feche o arquivo stunnel.conf e execute o "Stunnel.exe".
 
