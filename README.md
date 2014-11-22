@@ -67,7 +67,5 @@ Salve, feche o arquivo stunnel.conf e execute o "Stunnel.exe".
 
 Rode o seu script de envio de e-mail PHP e verifique se deu certo!
 
-    No link https://github.com/mjpsolucoes/confSendmailStunnelWin8 eu disponibilizei os meus arquivos de configuração [php.ini (parcial), sendmail.ini, stunnel.conf] para você analisar!
-
 Boa sorte!!!
 
