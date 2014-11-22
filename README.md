@@ -16,19 +16,18 @@ Coloque os arquivos do sendmail na nova pasta criada, procure pelo arquivo de co
 
 Altere os seguintes valores:
 
-smtp_server=localhost
-smtp_port=25
-smtp_ssl=none
-auth_username=seu_email@gmail.com
-auth_password=sua_senha
+    smtp_server=localhost
+    smtp_port=25
+    smtp_ssl=none
+    auth_username=seu_email@gmail.com
+    auth_password=sua_senha
 
 Salve e feche o arquivo sendmail.ini
 
 Configurado o Sendmail é hora de configurar o php.ini alterando os seguintes valores:
 
-smtp_port = 465
-sendmail_path = "D:\wamp\sendmail\sendmail.exe -t"
-
+    smtp_port = 465
+    sendmail_path = "D:\wamp\sendmail\sendmail.exe -t"
     Lembrando que o caminho "D:\wamp\sendmail\sendmail.exe" pode ser diferente dependendo da unidade onde você instalou o WAMP.
 
 Salve e feche o arquivo php.ini e reinicie os serviços do WAMP.
@@ -42,24 +41,21 @@ Agora vem a dica para funcionar no Windows 8.
 
 Após copiar o arquivo abra-o e edite as seguintes configurações:
 
-cert = stunnel.pem
-socket = l:TCP_NODELAY=1
-socket = r:TCP_NODELAY=1
-key = stunnel.pem
-
-[ssmtp]
-accept  = 465
-connect = 25
-
-[gmail-smtp]
-client = yes
-accept = 127.0.0.1:25
-connect = smtp.gmail.com:465
-
-// Para verificar os registros, você pode habilitar a opção de debug
-// que fica no início do arquivo
-debug = 7
-output = stunnel.log
+    cert = stunnel.pem
+    socket = l:TCP_NODELAY=1
+    socket = r:TCP_NODELAY=1
+    key = stunnel.pem
+    [ssmtp]
+    accept  = 465
+    connect = 25
+    [gmail-smtp]
+    client = yes
+    accept = 127.0.0.1:25
+    connect = smtp.gmail.com:465
+    // Para verificar os registros, você pode habilitar a opção de debug
+    // que fica no início do arquivo
+    debug = 7
+    output = stunnel.log
 
     DICA: Caso habilite a opção de debug será necessário criar o arquivo stunnel.log se ele não existir e dar as devidas permissões do seu usuário.
 
