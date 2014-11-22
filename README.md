@@ -28,14 +28,17 @@ Configurado o Sendmail é hora de configurar o php.ini alterando os seguintes va
 
     smtp_port = 465
     sendmail_path = "D:\wamp\sendmail\sendmail.exe -t"
-    Lembrando que o caminho "D:\wamp\sendmail\sendmail.exe" pode ser diferente dependendo da unidade onde você instalou o WAMP.
+    Lembrando que o caminho "D:\wamp\sendmail\sendmail.exe"
+    pode ser diferente dependendo da unidade onde você instalou o WAMP.
 
 Salve e feche o arquivo php.ini e reinicie os serviços do WAMP.
 
 Agora vem a dica para funcionar no Windows 8.
 
     Baixe o Stunnel (https://www.stunnel.org/downloads.html) e instale no seu computador;
-    Na pasta do Stunnel procure pelo arquivo stunnel.conf, deverá estar em C:\Arquivos de Programas\stunnel (64bits) ou C:\Program Files (x86)\stunnel (32bits);
+    Na pasta do Stunnel procure pelo arquivo stunnel.conf, deverá estar em
+    C:\Arquivos de Programas\stunnel (64bits) ou
+    C:\Program Files (x86)\stunnel (32bits);
 
     DICA: Para editar este arquivo você precisará de permissões especiais, portanto será necessário copiá-lo para a Área de Trabalho para só então editá-lo e depois de editado sobrescrevê-lo na pasta de origem.
 
