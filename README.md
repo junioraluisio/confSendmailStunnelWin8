@@ -1,5 +1,5 @@
- Sendmail e Stunnel :: Enviando e-mail pelo Gmail utilizando a função mail() do PHP no Windows 8
-================================================================================================
+ Sendmail e Stunnel :: Enviando e-mail pelo Gmail utilizando a função mail() do PHP no Windows 8 e 10
+======================================================================================================
 
 No Windows 8 é necessário a utilização do software Stunnel para fazer o Sendmail funcionar corretamente com o Gmail uma vez que este retirou o suporte para v2 como é utilizado pelo sendmail, acompanhe o passo-a-passo abaixo e acredito que terás sucesso:
 
